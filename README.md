@@ -66,6 +66,14 @@ Você deve ver no seu caso quais campos devem ser enviados pelo Zabbix ao Servic
 		data.state = 6;
 		data.incident_state= 6;
 	}
+	
+<p align="center">
+	<img src="images/ZabbixSN1.7.PNG">
+</p>
+
+<p align="center">
+	<img src="images/ZabbixSN1.8.PNG">
+</p>
 
 4 - Depois dessas configurações você pode seguir o caminho padrão de notificação via Action do Zabbix.
 
