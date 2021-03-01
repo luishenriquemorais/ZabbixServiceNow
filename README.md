@@ -32,6 +32,14 @@ O Media Type padrão apenas abre e atualiza o chamado, não fazendo o fechamento
 
     (Media -> Add -> Type: ServiceNow -> Send To: URL da sua instância Service Now)
     
+<p align="center">
+	<img src="images/ZabbixSN1.3.PNG">
+</p>
+
+<p align="center">
+	<img src="images/ZabbixSN1.4.PNG">
+</p>
+    
 
 # Configuração
 
