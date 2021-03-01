@@ -49,8 +49,16 @@ Devemos agora customizar os campos a serem enviados para o ServiceNow
 
     (Adminstration -> Media Type -> ServiceNow)
     
+<p align="center">
+	<img src="images/ZabbixSN1.4.PNG">
+</p>
+    
 2 - No meu caso eu adicionei os campos do ServiceNow: Tipo de Contato, Categoria, Local, Melhor horário para contato, Módulo, Produto, Sintoma e Telefone para contato.
 Você deve ver no seu caso quais campos devem ser enviados pelo Zabbix ao ServiceNow e depois disso ver qual é o nome deles dentro da estrutura do ServiceNow.
+
+<p align="center">
+	<img src="images/ZabbixSN1.6.PNG">
+</p>
 
 3 - No media type desta documentação colocamos essa condição para quando o Zabbix enviar um alerta resolved ele jogue pra dentro da váriavel status o valor 6 (que para o nosso ambiente é o valor de Resolvido). Linhas 168 a 171 do campo Script no Media Type ServiceNow.
 
