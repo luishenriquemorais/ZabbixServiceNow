@@ -8,6 +8,8 @@ O Media Type padrão apenas abre e atualiza o chamado, não fazendo o fechamento
 1 - Primeiramente exporte o media type padrão no Zabbix.
 
     (Adminstration -> Media Type -> Import)
+    ![image](https://user-images.githubusercontent.com/22282185/109505554-78bab480-7a7b-11eb-9062-3211bef330ba.png)
+
     
 2 - Crie ou use um usuário para que ele possa utilizar este media type.
 
@@ -37,4 +39,6 @@ Você deve ver no seu caso quais campos devem ser enviados pelo Zabbix ao Servic
 		data.incident_state= 6;
 	}
 
+4 - Depois dessas configurações você pode seguir o caminho padrão de notificação via Action do Zabbix.
 
+    (Configuration -> Action -> Create Action)
