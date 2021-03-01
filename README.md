@@ -1,4 +1,4 @@
-# Zabbix
+# Integração Zabbix 5.0 com ServiceNow
 A explicação abaixo demonstra como em MEU ambiente consegui integrar o Zabbix 5.0 com o ServiceNow fazendo com que a abertura, atualização e fechamento dos chamados sejam feitos de forma automática. Pode ser que em seu ambiente também necessite destes ajustes, por isso estarei demonstrando aqui.
 
 O Media Type padrão apenas abre e atualiza o incidente criado, não fazendo o fechamento.
