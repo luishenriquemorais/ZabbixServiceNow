@@ -5,7 +5,7 @@ O Media Type padrão apenas abre e atualiza o chamado, não fazendo o fechamento
 
 # Instalação
 
-1 - Primeiramente exporte o media type padrão no Zabbix. Faça o download que está neste link: <a href="media_servicenow.xml">
+1 - Primeiramente exporte o media type padrão no Zabbix. Faça o download que está neste link:
 
     (Adminstration -> Media Type -> Import)
     
