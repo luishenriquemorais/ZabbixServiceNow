@@ -8,7 +8,7 @@ O Media Type padrão apenas abre e atualiza o chamado, não fazendo o fechamento
 1 - Primeiramente exporte o media type padrão no Zabbix.
 
     (Adminstration -> Media Type -> Import)
-    ![img]https://github.com/luishmdasilva10/ZabbixServiceNow/blob/main/images/ZabbixSN1.0.PNG
+    ![]https://user-images.githubusercontent.com/22282185/109508529-b5d47600-7a7e-11eb-87bb-0e77b56524dd.png
     
 2 - Crie ou use um usuário para que ele possa utilizar este media type.
 
