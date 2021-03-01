@@ -7,9 +7,11 @@ O Media Type padrão apenas abre e atualiza o chamado, não fazendo o fechamento
 
 1 - Primeiramente exporte o media type padrão no Zabbix.
     (Adminstration -> Media Type -> Import)
+    
 2 - Crie ou use um usuário para que ele possa utilizar este media type.
     (Administration -> User -> Create User)
     (Administration -> User -> Select User)
+    
 3 - Com o usuário selecionado, na sessão Midia dele, cadastre o media type do ServiceNow.
     (Media -> Add -> Type: ServiceNow -> Send To: URL da sua instância Service Now)
 
