@@ -10,7 +10,7 @@ O Media Type padrão apenas abre e atualiza o chamado, não fazendo o fechamento
     (Adminstration -> Media Type -> Import)
     
 <p align="center">
-	<img src="images/ZabbixSN1.0.PNG">
+	<img src="images/ZabbixSN1.0.0.PNG">
 </p>
     
     
