@@ -50,7 +50,7 @@ Devemos agora customizar os campos a serem enviados para o ServiceNow
     (Adminstration -> Media Type -> ServiceNow)
     
 <p align="center">
-	<img src="images/ZabbixSN1.4.PNG">
+	<img src="images/ZabbixSN1.5.PNG">
 </p>
     
 2 - No meu caso eu adicionei os campos do ServiceNow: Tipo de Contato, Categoria, Local, Melhor horário para contato, Módulo, Produto, Sintoma e Telefone para contato.
