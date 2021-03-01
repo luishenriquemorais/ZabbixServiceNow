@@ -1,5 +1,5 @@
 # Zabbix
-A explicação abaixo demonstra como em MEU ambiente consegui integrar o Zabbix 5.0 com o ServiceNow fazendo com que a abertura, atualização e fechamento dos chamados sejam feitos de forma automática. Pode ser que eu seu ambiente também necessite destes ajustes, por isso estarei demonstrando aqui.
+A explicação abaixo demonstra como em MEU ambiente consegui integrar o Zabbix 5.0 com o ServiceNow fazendo com que a abertura, atualização e fechamento dos chamados sejam feitos de forma automática. Pode ser que em seu ambiente também necessite destes ajustes, por isso estarei demonstrando aqui.
 
 O Media Type padrão apenas abre e atualiza o incidente criado, não fazendo o fechamento.
 
@@ -7,7 +7,7 @@ O Media Type padrão apenas abre e atualiza o incidente criado, não fazendo o f
 
 1 - Primeiramente exporte o media type padrão no Zabbix. Faça o download que está neste link: <a href="media_servicenow.xml">media_servicenow.xml</a>
 	
-    (Adminstration -> Media Type -> Import)
+    (Administration -> Media Type -> Import)
     
 <p align="center">
 	<img src="images/ZabbixSN1.0.0.PNG">
@@ -47,7 +47,7 @@ Devemos agora customizar os campos a serem enviados para o ServiceNow
 
 1 - Acesse seu media type ServiceNow
 
-    (Adminstration -> Media Type -> ServiceNow)
+    (Administration -> Media Type -> ServiceNow)
     
 <p align="center">
 	<img src="images/ZabbixSN1.5.PNG">
@@ -79,7 +79,7 @@ Você deve ver no seu caso quais campos devem ser enviados pelo Zabbix ao Servic
 
     (Configuration -> Action -> Create Action)
     
-Deposi de configurar as triggers que serão disparadas com essa Action, no menu Operations você deve configurar as condições de disparo. Nesse caso o usuário Admin irá enviar uma mensagem via o Media Type ServiceNow DEV imediatamente e as opções de Recovery e Update serão Notify all involved. Mais no seu caso será o usuário criado que está com a media type ServiceNow configurada.
+Depois de configurar as triggers que serão disparadas com essa Action, no menu Operations você deve configurar as condições de disparo. Nesse caso o usuário Admin irá enviar uma mensagem via o Media Type ServiceNow DEV imediatamente e as opções de Recovery e Update serão Notify all involved. Mais no seu caso será o usuário criado que está com a media type ServiceNow configurada.
     
 <p align="center">
 	<img src="images/ZabbixSN1.9.PNG">
