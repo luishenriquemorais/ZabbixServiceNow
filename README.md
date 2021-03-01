@@ -1,2 +1,2 @@
 # Zabbix
-Scripts and Integrations we use in Zabbix
+Integration between Zabbix 5.0 and ServiceNow
