@@ -22,7 +22,7 @@ O Media Type padrão apenas abre e atualiza o chamado, não fazendo o fechamento
 	<img src="images/ZabbixSN1.1.PNG">
 </p>
 
-    (Administration -> User -> Select User)
+    (Administration -> User -> Selecione o Usuário já criado)
     
 <p align="center">
 	<img src="images/ZabbixSN1.2.PNG">
