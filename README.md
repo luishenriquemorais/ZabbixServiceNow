@@ -78,3 +78,9 @@ Você deve ver no seu caso quais campos devem ser enviados pelo Zabbix ao Servic
 4 - Depois dessas configurações você pode seguir o caminho padrão de notificação via Action do Zabbix.
 
     (Configuration -> Action -> Create Action)
+    
+Deposi de configurar as triggers que serão disparadas com essa Action, no menu Operations você deve configurar as condições de disparo. Nesse caso o usuário Admin irá enviar uma mensagem via o Media Type ServiceNow DEV imediatamente e as opções de Recovery e Update serão Notify all involved.
+    
+<p align="center">
+	<img src="images/ZabbixSN1.9.PNG">
+</p>
