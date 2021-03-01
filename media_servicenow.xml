@@ -243,6 +243,12 @@ try {&#13;
         throw 'Recovery operations are supported only for trigger-based actions.';&#13;
     }&#13;
 &#13;
+ &#13;   
+    if (params.event_value === '0'){
+		data.state = 6;
+		data.incident_state= 6;
+	}&#13;
+&#13;    
     data.short_description = params.alert_subject;&#13;
     data.description = params.alert_message;&#13;
 &#13;
